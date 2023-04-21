@@ -25,11 +25,12 @@ Before starting, clone this repository. Then do the following according to your 
 
     - Install Xcode with Clang
 
+       (After installing Xcode, type in Terminal:
         xcodebuild -find make
         xcodebuild -find gcc
         xcodebuild -find g++
         xcodebuild -find clang
-        xcodebuild -find clang++
+        xcodebuild -find clang++)
     
     - In MATLAB, change the directory to the folder of the repository, run
     ```matlab
