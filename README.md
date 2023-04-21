@@ -24,6 +24,13 @@ Before starting, clone this repository. Then do the following according to your 
 - C
 
     - Install Xcode with Clang
+
+        xcodebuild -find make
+        xcodebuild -find gcc
+        xcodebuild -find g++
+        xcodebuild -find clang
+        xcodebuild -find clang++
+    
     - In MATLAB, change the directory to the folder of the repository, run
     ```matlab
     try_mex_setup('c')
